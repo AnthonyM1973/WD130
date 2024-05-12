@@ -1,10 +1,41 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
+<body style="background-color: #47B2F5;">
 <head>
   <meta charset="utf-8" />
   <title>Site Plan</title>
-  <link type="text/css" rel="stylesheet" href="styles/site-plan-rafting.css" />
+  <style>
+    /* CSS code for centering */
+    body {
+      text-align: center; /* Center aligns all text inside the body */
+    }
+    
+    header {
+      text-align: center; /* Center aligns all text inside the header */
+    }
+    
+    header h1,
+    header h2 {
+      margin: 0;
+    }
+
+    main {
+      text-align: center; /* Center aligns all text inside the main */
+    }
+
+    main h2 {
+      font-family: 'Poetsen One', cursive; /* Assuming you want to use the 'Poetsen One' font */
+    }
+
+    .center-content {
+      text-align: center; /* Center aligns all text inside this div */
+      margin: auto; /* Centers the div itself horizontally */
+      max-width: 600px; /* Adjust the maximum width as needed */
+    }
+
+    /* Add more CSS rules as needed */
+  </style>
 </head>
 
 <body>
@@ -15,16 +46,30 @@
     <!-- In the header above, add the name of your site, your name and class number. For example if you are in section 3 you would put WDD 130-03 -->
   </header>
   <main>
-    <!-- ------------------------Steps 2-5------------------------------ -->
-    <hr />
-    <h2>Overview</h2>
-    <h3>Purpose</h3>
-    <p>[Your purpose here]</p>
-    <!-- change this -->
+    <div class="center-content">
+      <!-- Input field for changing background color -->
+      <label for="bg-color">Background Color:</label>
+      <input type="color" id="bg-color">
+      
+      <hr />
+      <h2>Overview</h2>
+      <h3>Purpose</h3>
+      <p>The purpose of this webpage is to allow me to create my own webpage with the existing blueprints provided to me</p>
 
-    <h3>Audience</h3>
-    <p>[Your audience here]</p>
-    <!-- change this -->
+      <h3>Audience</h3>
+      <p>The Audience targeted is those with an interest in white water rafting and those that want me to know how a website and it's coding works</p>
+    </div>
+    
+    <script>
+      // JavaScript code for changing background color dynamically
+      document.getElementById("bg-color").addEventListener("input", function() {
+        document.body.style.backgroundColor = this.value;
+      });
+    </script>
+  </main>
+</body>
+
+</html>
 
     <hr />
     <h2>Branding</h2>
