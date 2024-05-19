@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<body style="background-color: #47B2F5;">
 <head>
   <meta charset="utf-8" />
   <title>Site Plan</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
     /* CSS code for centering */
     body {
       text-align: center; /* Center aligns all text inside the body */
+      background-color: #47B2F5; /* Background color */
+      font-family: 'Roboto', sans-serif; /* Body font */
     }
     
     header {
@@ -25,7 +27,7 @@
     }
 
     main h2 {
-      font-family: 'Poetsen One', cursive; /* Assuming you want to use the 'Poetsen One' font */
+      font-family: 'Poetsen One', cursive; /* Heading font */
     }
 
     .center-content {
@@ -34,16 +36,28 @@
       max-width: 600px; /* Adjust the maximum width as needed */
     }
 
+    .logo {
+      max-width: 75px; /* Size adjustment for the logo */
+      display: block;
+      margin: 20px auto; /* Center the logo and add some margin */
+    }
+
+    .image {
+      max-width: 100%;
+      height: auto;
+      margin: 20px 0;
+    }
+
     /* Add more CSS rules as needed */
   </style>
 </head>
 
 <body>
   <header>
-    <h1>white water rafting Site Plan</h1>
+    <img src="https://cdn.discordapp.com/attachments/650817048632492045/1241570120673918986/DALLE_2024-05-18_19.52.39_-_A_simple_and_minimalistic_logo_for_115_in_the_style_of_black_and_yellow_caution_signs._The_design_should_be_neutral_featuring_bold_clear_typograph.webp?ex=664aadc8&is=66495c48&hm=6f085ffc6dbe671f08334cc066c1cdde64db00f4a3778f84dd6cd65a33239573&" alt="Adventure Rafting Logo" class="logo" />
+    <h1>White Water Rafting Site Plan</h1>
     <h2>Anthony Marichal</h2>
     <h2>WDD 130-03</h2>
-    <!-- In the header above, add the name of your site, your name and class number. For example if you are in section 3 you would put WDD 130-03 -->
   </header>
   <main>
     <div class="center-content">
@@ -57,9 +71,14 @@
       <p>The purpose of this webpage is to allow me to create my own webpage with the existing blueprints provided to me</p>
 
       <h3>Audience</h3>
-      <p>The Audience targeted is those with an interest in white water rafting and those that want me to know how a website and it's coding works</p>
+      <p>The audience targeted is those with an interest in white water rafting and those that want me to know how a website and its coding works</p>
     </div>
     
+    <div class="center-content">
+      <img src="https://cdn.discordapp.com/attachments/650817048632492045/1241575037090136124/rafting-in-pop-up-rapid.png?ex=664ab25c&is=664960dc&hm=9df794a4f102ea31f004d9d558ad8ad4b71cf3f71e157b01fc833d027f390c76&" alt="Whitewater Rafting Adventure 1" class="image" />
+      <img src="https://cdn.discordapp.com/attachments/650817048632492045/1241575144493809690/5280563B-24DA-4D7E-B355-F6F2F58740B0-scaled.png?ex=664ab275&is=664960f5&hm=e786a1c2e952ada889b7b5e10f7e46a0738a060df95a5c01c29680a0ec1ee9dc&" alt="Whitewater Rafting Adventure 2" class="image" />
+    </div>
+
     <script>
       // JavaScript code for changing background color dynamically
       document.getElementById("bg-color").addEventListener("input", function() {
